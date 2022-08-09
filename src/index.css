@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "Atashin";
+    src: url("./assets/fonts/Atashin.otf") format("opentype");
+}
+@font-face {
+    font-family: "Titr";
+    src: url("./assets/fonts/Titr.ttf");
+}
+@font-face {
+    font-family: "Vazir";
+    src: url("./assets/fonts/Vazir.ttf");
+}
+@font-face {
+    font-family: "Peyda";
+    src: url("./assets/fonts/Peyda.woff2");
+}
+@font-face {
+    font-family: "Peyda-reg";
+    src: url("./assets/fonts/PeydaReg.woff2");
+}
+@font-face {
+    font-family: "B-Nazanin";
+    src: url("./assets/fonts/BNazanin.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    direction: rtl;
+    font-family: "Peyda" !important;
+    border-radius: 1.3rem;
+}
+
+.bgDark {
+    background-color: rgba(72, 82, 94, 0.9);
+    color: white !important;
+}
+.bgDark a {
+    color: white !important;
+}
+
+.hidden {
+    display: none !important;
+}
