@@ -1,5 +1,5 @@
-import TaskForm from "./TaskForm";
 import styled from "styled-components";
+import TaskForm from "./TaskForm";
 
 export const ToDoList = () => {
     return (

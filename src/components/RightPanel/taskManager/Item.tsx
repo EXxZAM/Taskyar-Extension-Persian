@@ -42,7 +42,7 @@ export const Item = ({
                             ) : (
                                 <p
                                     style={{
-                                        backgroundColor: `${priority}`,
+                                        color: `${priority}`,
                                     }}
                                 >
                                     {task}
@@ -140,6 +140,7 @@ const Container = styled.div`
 
 const ListItem = styled.li`
     margin-top: 5px;
+    margin-right: 5px;
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -161,7 +162,7 @@ const ListItem = styled.li`
     }
     p {
         margin-right: 5px;
-        font-weight: 100;
+        font-weight: bold;
         font-size: 15px;
     }
 
