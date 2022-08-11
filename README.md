@@ -2,10 +2,7 @@
 
 Taskyar helps you keep up with your tasks in your browser!
 
-Dark Theme:
 [![Todolist][product-screenshotdark]](https://github.com/EXxZAM)
-
-Light Theme:
 [![Todolist][product-screenshotlight]](https://github.com/EXxZAM)
 
 ### Built With
