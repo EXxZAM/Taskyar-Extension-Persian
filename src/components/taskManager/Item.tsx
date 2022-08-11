@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { useTasks } from "../../../contexts/TaskContext";
+import { useTasks } from "../../contexts/TaskContext";
 interface ItemsProps {
     task: string;
     label: string;

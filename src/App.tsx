@@ -1,12 +1,12 @@
 import styled from "styled-components";
-import RightPanel from "./components/RightPanel/Panel";
+import TodoPanel from "./components/Panel";
 
 function App() {
     return (
         <>
             <MainApp>
                 <Container>
-                    <RightPanel />
+                    <TodoPanel />
                 </Container>
             </MainApp>
         </>

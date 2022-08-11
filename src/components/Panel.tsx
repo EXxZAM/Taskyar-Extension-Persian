@@ -1,11 +1,11 @@
 import autoAnimate from "@formkit/auto-animate";
 import { useEffect, useRef } from "react";
 import styled from "styled-components";
-import { useTasks } from "../../contexts/TaskContext";
-import { useTheme } from "../../contexts/ThemeContext";
+import { useTasks } from "../contexts/TaskContext";
+import { useTheme } from "../contexts/ThemeContext";
 import { Item } from "./taskManager/Item";
 import { ToDoList } from "./taskManager/ToDoList";
-function RightPanel() {
+function TodoPanel() {
     const { updateTheme, theme }: any = useTheme();
     const { tasks }: any = useTasks();
     const parent = useRef(null);
@@ -207,4 +207,4 @@ const Container = styled.div`
     }
 `;
 
-export default RightPanel;
+export default TodoPanel;

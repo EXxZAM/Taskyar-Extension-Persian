@@ -1,6 +1,6 @@
 import { FormEvent, useRef, useState } from "react";
 import styled from "styled-components";
-import { useTasks } from "../../../contexts/TaskContext";
+import { useTasks } from "../../contexts/TaskContext";
 const TaskForm = () => {
     const { addTask }: any = useTasks();
     const greenIcon = useRef<any>();
