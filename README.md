@@ -16,7 +16,7 @@ Taskyar was build using React and Typescript.
 
 Mahdi Olamaei - [@exxzam](https://t.me/exxzam) - mahdiolamaei@proton.me
 
-Project Link: [https://github.com/EXxZAM/React-TodoList-Chrome-Extension](https://github.com/EXxZAM/React-TodoList-Chrome-Extension)
+Project Link: [https://github.com/EXxZAM/Taskyar-Extention-Persian](https://github.com/EXxZAM/Taskyar-Extention-Persian)
 
 ## Acknowledgments
 
